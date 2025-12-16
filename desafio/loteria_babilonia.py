@@ -21,7 +21,7 @@ def check_numbers(sorteio:int, usuario:int)->bool:
         print("Parabéns! Você se tornou um milionário!")
         return True
 
-    elif sorteio > sorteio:
+    elif sorteio > sorteio: 
         print(f"Número muito alto. Tente novamente")
         return False
 

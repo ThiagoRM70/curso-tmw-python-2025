@@ -37,3 +37,4 @@ dataset.to_csv("ceps.csv", sep=";")
 # %%
 with open("ceps.json", "w" ,encoding='utf-8') as open_file:
     json.dump(dados, open_file, ensure_ascii=False, indent=4)
+# %%
